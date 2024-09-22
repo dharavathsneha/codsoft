@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Demo</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f8f9fa;
+            color: #333;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+        }
+
+        header nav a:hover {
+            color: #6c63ff;
+        }
+
+        .hero-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+            background: #fff;
+        }
+
+        .hero-text {
+            max-width: 50%;
+        }
+
+        .hero-text h1 {
+            font-size: 48px;
+            margin: 0;
+            color: #333;
+        }
+
+        .hero-text p {
+            margin: 20px 0;
+            line-height: 1.6;
+            font-size: 18px;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            margin-right: 10px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #6c63ff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #5a52db;
+        }
+
+        .hero-image {
+            max-width: 50%;
+        }
+
+        .hero-image img {
+            width: 100%;
+            height: auto;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+        }
+
+        .social-icons img {
+            width: 40px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h2>&lt;Saad Poster&gt;</h2>
+        </div>
+        <nav>
+            <a href="#">Skills</a>
+            <a href="#">Open Source</a>
+            <a href="#">Projects</a>
+            <a href="#">Achievements</a>
+            <a href="#">Blogs</a>
+            <a href="#">Talks</a>
+            <a href="#">Contact Me</a>
+        </nav>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-text">
+            <h1>Hi all I'm Saad 👋</h1>
+            <p>A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications
+                with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks</p>
+            <div class="social-icons">
+                <a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub"></a>
+                <a href="#"><img src="https://img.icons8.com/color/50/000000/linkedin.png" alt="LinkedIn"></a>
+                <a href="#"><img src="https://img.icons8.com/color/50/000000/google-logo.png" alt="Google"></a>
+                <a href="#"><img src="https://img.icons8.com/color/50/000000/gitlab.png" alt="GitLab"></a>
+                <a href="#"><img src="https://img.icons8.com/color/50/000000/facebook-new.png" alt="Facebook"></a>
+            </div>
+            <div class="buttons">
+                <a href="#" class="button">CONTACT ME</a>
+                <a href="#" class="button">SEE MY RESUME</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <!-- Replace with the actual image URL -->
+            <img src="path/to/your/illustration.png" alt="Illustration">
+        </div>
+    </sectio<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: #f8f8f8;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff5e63;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ff5e63;
+        }
+
+        .header-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .header-button {
+            padding: 10px 20px;
+            border: none;
+            color: white;
+            background-color: #ff5e63;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .header-button:hover {
+            background-color: #e04e54;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('path/to/hero-background.jpg') center/cover no-repeat;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+
+        .hero-overlay {
+            background: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin: 10px 0 20px;
+        }
+
+        .hero .hero-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .hero .hero-button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #ff5e63;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .hero .hero-button:hover {
+            background-color: #e04e54;
+        }
+
+        /* Services Section */
+        .services {
+            padding: 50px 50px;
+            background: linear-gradient(45deg, #ff5e63, #ff7f63);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .service {
+            text-align: center;
+            width: 30%;
+        }
+
+        .service h3 {
+            margin-top: 0;
+        }
+
+        /* About Us Section */
+        .about {
+            padding: 50px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .about-text {
+            width: 60%;
+        }
+
+        .about-text h2 {
+            margin-top: 0;
+            color: #ff5e63;
+        }
+
+        .about-text p {
+            margin-bottom: 20px;
+        }
+
+        .about img {
+            width: 30%;
+            border-radius: 5px;
+        }
+
+        /* Our Services Section */
+        .our-services {
+            padding: 50px 50px;
+            background: #f8f8f8;
+        }
+
+        .service-cards {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .service-card {
+            width: 30%;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .service-card img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">Landing Page</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">Page</a>
+            <a href="#">Services</a>
+            <a href="#">Testimonials</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="header-buttons">
+            <a href="#" class="header-button">REQUEST & CONSULT</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Creative Digital Agency</h1>
+            <p>We are a creative digital agency that provides innovative solutions.</p>
+            <div class="hero-buttons">
+                <a href="#" class="hero-button">READ MORE</a>
+                <a href="#" class="hero-button">REQUEST A CONSULT</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="service">
+            <h3>Launching Business</h3>
+            <p>Lorem Ipsum has been the industry standard dummy text ever since the 1500s.</p>
+        </div>
+        <div class="service">
+            <h3>Online Support Team</h3>
+            <p>Lorem Ipsum has been the industry standard dummy text ever since the 1500s.</p>
+        </div>
+        <div class="service">
+            <h3>Time Management</h3>
+            <p>Lorem Ipsum has been the industry standard dummy text ever since the 1500s.</p>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about">
+        <div class="about-text">
+            <h2>About Us</h2>
+            <p>15 years, we passionate about achieving better results for our clients. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <a href="#" class="header-button">READ MORE</a>
+        </div>
+        <img src="path/to/your-about-image.jpg" alt="About Us Image">
+    </section>
+
+    <!-- Our Services Section -->
+    <section class="our-services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="service-card">
+                <img src="path/to/your-service1.jpg" alt="User Experience">
+                <h3>User Experience</h3>
+            </div>
+            <div class="service-card">
+                <img src="path/to/your-service2.jpg" alt="Creative Design">
+                <h3>Creative Design</h3>
+            </div>
+            <div class="service-card">
+                <img src="path/to/your-service3.jpg" alt="Retina Ready">
+                <h3>Retina Ready</h3>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
